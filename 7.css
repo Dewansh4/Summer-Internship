@@ -1,0 +1,91 @@
+#home7{
+    background-image: url(rm422-076-x.jpg);
+    background-size:cover;
+    padding: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.t7{
+    display: grid;
+    grid-template-areas:
+        "name email"
+        "subject phone"
+        "message message";
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.form-content{
+    position: relative;
+    margin: 30px 0 50px;
+    width: 600px;
+    padding-left: 40px;
+}
+.text-name{
+padding: 0.5rem 1rem;
+}
+.form-content label {
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+}
+.text-subject{
+    padding: 0.5rem 1rem;
+    }
+    .form-content label {
+        position: absolute;
+        left: 40px;
+        bottom: 35px;
+    }.text-phone{
+        padding: 0.5rem 1rem;
+        }
+        .form-content label {
+            position: absolute;
+            left: 40px;
+            bottom: 35px;
+        }
+        .text-email{
+            padding: 0.5rem 1rem;
+            }
+            .form-content label {
+                position: absolute;
+                left: 40px;
+                bottom: 35px;
+            }
+            .text-message{
+                padding: 0.5rem 1rem;
+                    position:relative;
+                    left: 40px;
+                    bottom: 35px;  
+                    height: 100px;
+                    width: 700px;
+                }
+                
+            #contact-a button[type="submit"] {
+                        width: 50%;
+                      }
+                      .btn-dark {
+                        color: #f4f4f4;
+                        background-color: #333;
+                    }
+                    .btn-main, .btn-light, .btn-dark {
+                        display: inline-block;
+                        padding: 0.8rem;
+                         transition: all 0.5s; 
+                         border: none; 
+                         cursor: pointer;
+                         margin-left: 310px;
+                    }
+                    .bg-main.py-4{
+                        background-color:violet;
+                        padding: 50px;
+                    }
+                button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #ffbc00;
+}
+.b{
+    color:red;
+}

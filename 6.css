@@ -1,0 +1,36 @@
+.projects {
+    line-height: 1.5rem;
+  }
+  .project_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    background:yellowgreen;
+    color:black;
+  }
+  .pre {
+    overflow-y: scroll;
+    height: 30vh;
+  }
+ .container1 h5 {
+    padding: 200px;
+    font-size: 80px;
+    opacity: 0.8;
+    border-radius: 100%;
+  background:red;
+  width: 40%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  transition: all 1s;
+  }
+  .container1 h5:hover{
+    background: #ffbc00;
+    width:70px;
+    height: 70px;
+    line-height: 60px;
+  }
+  .footer_container {
+    max-width: 1170px;
+    margin: auto;
+  }

@@ -1,0 +1,113 @@
+    .hide,
+    .hide-1,
+    .hide-2 {
+        display: none;
+    }
+#contact-a .text-fields {
+    display: grid;
+    grid-template-areas:
+      "name email"
+      "subject phone"
+      "message message";
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  #contact-a.img{
+    width: 50%;
+  }
+  #contact-a .text-fields .name-input {
+    grid-area: name;
+  }
+  #contact-a .text-fields .name-input {
+    grid-area: name;
+  }
+  #contact-a .text-fields .subject-input {
+    grid-area: subject;
+  }
+  #contact-a .text-fields .enmail-input {
+    grid-area: enmail;
+  }
+  #contact-a .text-fields .phone-input {
+    grid-area: phone;
+  }
+  #contact-a .text-fields .message-input {
+    grid-area: message;
+    height: 100px;
+  }
+  #contact-a .text-fields .text-input {
+    padding: 0.5rem 1rem;
+  }
+  
+  #contact-a button[type="submit"] {
+    width: 50%;
+  }
+  
+  #contact-b .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #contact-c h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .flex-items > div {
+    padding: 20px;
+  }  
+  .flex-columns.flex-reverse .row {
+    flex-direction: column;
+  }
+  
+  .flex-columns .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .flex-columns .column .column-1,
+  .flex-columns .column .column-2 {
+    height: 100%;
+  }
+  .flex-columns img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .flex-columns h2 {
+    font-size: 40px;
+    font-weight: 100;
+  }
+  
+  .flex-columns h4 {
+    margin-bottom: 10px;
+  }
+  .flex-columns p {
+    margin: 20px 0;
+  }
+  .row{
+    display: flex;
+  }
+  
